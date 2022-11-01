@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!-- Last Published: Sun Jul 10 2022 18:34:55 GMT+0000 (Coordinated Universal Time) -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Raffa Prezia</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="../graphics/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+  
+  
+   
+  
+   
+    <style>
+      .project-preview-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .project-preview-item:last-child .short-divider {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="body ">
+    <div class="w-embed">
+      <style>
+        .content--canvas canvas {
+          z-index: -1;
+          position: absolute !important;
+          display: none;
+        }
+      </style>
+      <div class="content content--canvas"></div>
+    </div>
+    <div class="animated-background w-embed">
+      <style>
+        .animatedwrapper {
+          overflow: hidden;
+          position: absolute;
+          left: 0px;
+          top: -100px;
+          z-index: 0;
+          width: 100%;
+          height: 1300px;
+          isolation: isolate;
+          /* 
+      Add fallback background here
+      background: url();
+      */
+        }
+
+        @media only screen and (max-width: 600px) {
+          .animatedwrapper {
+            top: -500px;
+          }
+          .dot {
+            --size: 100px;
+          }
+        }
+
+        .dot {
+          --size: 700px;
+          /* Only show the animated dots for browsers that support the required features */
+          display: none;
+          position: absolute;
+          left: calc(var(--size) / 3 * -1);
+          top: calc(var(--size) / 3 * -1);
+          width: var(--size);
+          height: var(--size);
+          mix-blend-mode: soft-light;
+          border-radius: var(--size);
+          filter: blur(calc(var(--size) / 6));
+          animation: dot-animation ease-in-out 20s infinite;
+          will-change: transform;
+        }
+
+        @supports (mix-blend-mode: soft-light) and (filter: blur(1px)) {
+          .animatedwrapper {
+            /* Remove the fallback background image when the features are supported */
+            background: none;
+          }
+
+          .dot {
+            /* Only show the animated dots for browsers that support the required features */
+            display: block;
+          }
+        }
+
+        .dot--one {
+          background: #ed2a24;
+        }
+
+        .dot--two {
+          background: #f48937;
+          animation-delay: -7s;
+        }
+
+        .dot--three {
+          background: #bd3690;
+          animation-delay: -14s;
+        }
+
+        @keyframes dot-animation {
+          0% {
+            transform: translate(0, 0);
+          }
+          33% {
+            transform: translate(calc(var(--size) / 1.5), 0);
+          }
+          66% {
+            transform: translate(0, calc(var(--size) / 1.5));
+          }
+          100% {
+            transform: translate(0, 0);
+          }
+        }
+      </style>
+
+      <div class="animatedwrapper">
+        <div class="dot dot--one"></div>
+        <div class="dot dot--two"></div>
+        <div class="dot dot--three"></div>
+      </div>
+    </div>
+    <div
+      data-collapse="medium"
+      data-animation="default"
+      data-duration="400"
+      data-easing="ease"
+      data-easing2="ease"
+      role="banner"
+      class="navigation w-nav"
+    >
+    </div>
+    <div class="section-style section-home">
+      <div class="standard-container">
+        <div class="intro-wrap">
+          </head>
+          <body class="body111">
+            <div class="top-container111">
+              <h1 class="h1111">Hello, I'm Raffa.  I'm a Developer. <br> < /> </h1>
+            </div>
+
+            <div class="middle-container111">
+                <div class="profile111">
+                  <div class="container111">
+                  <h2 class="h2111">About Me</h2>
+                  
+                  <div class="left-element111">
+                  <p id="intro-subtitle" class="p111">
+                    I'm Raff. Born in Brazil. Trilingual.  Currently in college majoring
+                    Computer Science.  Completed high school at the age of fifteen.
+                     Focusing in broadening advanced studies and opportunities. Click
+                    bellow to check out my projects.
+                  </p>
+                  </div>
+               
+                <div class="right-element111">
+                <img class="img1111"  src="graphics/profilepic-circle-cropped.png" alt="Profile Graphic">
+               
+              </div>
+            
+            </div>
+            <a class="BUTTON_RDV111" href="https://docs.google.com/document/d/1ijjdSY8Uv6m3JyvkUW948dmNFuMIQqOw7ft1KtQuLpM/edit?usp=sharing">My CV</a>
+          </div> 
+          
+            <div class="my-skills111">
+              <h2 class="h2111" id="middle-container-subtitle">My Skills.</h2>
+              <section>
+                
+                 <div class="container111">
+                 <h3 class="h3111" id="subtitle">Technically Skilled</h3>
+                  <div class="left-element2111">
+                <img  class="img1111" src="graphics/binary-code.png" alt="Skill Graphic">
+                </div>
+                
+                <div class="right-element2111">
+                <p class="p111">
+                  In effect of having studied Computer Science as a curriculum for my
+                  primary education, I can say that I have a pretty advanced
+                  understanding of such technologies. This allows me to be able to
+                  effectively operate any computer, machine or any piece of technology
+                  with ease.
+                </p>
+              </div>
+              </div>
+              </section>
+              <section>
+                <div class="container111">
+                <h3 class="h3111">Soft Skilled</h3>
+                <div class="left-element111">
+                  <p class="p111">
+                    Within my study with the books: Influence, Getting to Yes, How to
+                    Win Friends and Influence People as well as other books, I had been
+                    able to develop soft abilities that direct me to be respectful,
+                    charismatic and a positive influence within the environment.
+                  </p>
+                  
+                </div>
+                <div class="right-element111">
+                  <img class="img1111" src="graphics/promotion.png" alt="Skill Graphic">
+              </div>
+              </div>
+              </section>
+            </div>  
+          </div>  
+          </div>
+          
+            <div id="works" class="mainbanners w-clearfix wf-section"><h2 class="secondary-title my-work-subtitle">My Work</h2><div data-w-id="2b038a10-7f33-c0db-9667-5075f2117505" class="barberleft" style="border-color: rgba(224, 225, 226, 0.094);"><div class="barberinner"><div class="div-block-793"><img onmouseover="myImgScript"src="graphics/projects/project2.png" alt="" class="image-12"><div><div class="heading-4-copy">Website Redesign</div></div><div><a href="https://github.com/RafaelPreziaGomes/likeitt.co-front-end-website" class="link-block-6 w-inline-block"><h2 class="heading-5 tablet-headings">Likeitt.co</h2></a></div><a href="https://rafaelpreziagomes.github.io/likeitt.co-front-end-website/" class="w-inline-block"><div class="div-block-794"><img onmouseover="myImgScript" src="graphics/projects/project2.png" alt="Ramenly Restaurant UI / UX Design" width="500" data-w-id="b28a212f-c116-d264-4686-29845a17250a" sizes="(max-width: 479px) 100vw, (max-width: 767px) 27vw, (max-width: 1279px) 28vw, (max-width: 1919px) 29vw, 500px" class="image-43" ></div></a></div></div></div><div data-w-id="d6841eb5-d961-26e9-97bf-a9fd8dba26ea" class="cards55-copy"><div class="barberinner"><div class="div-block-793"><img onmouseover="myImgScript" src="graphics/projects/project3.png" alt="" class="image-12"><div><div class="heading-4-copy">Full Stack Development</div></div><div><a href="https://github.com/RafaelPreziaGomes/coding-quiz" class="link-block-7 w-inline-block"><h2 class="heading-5 tablet-headings">Coding Quiz</h2></a></div></div><div class="div-block-794"></div></div><div class="div-block-794 z"><a href="https://rafaelpreziagomes.github.io/coding-quiz/" class="w-inline-block"><img  onmouseover="myImgScript" src="graphics/projects/project4.png" width="500"  sizes="(max-width: 479px) 100vw, (max-width: 767px) 27vw, (max-width: 1279px) 28vw, (max-width: 1919px) 29vw, 500px" class="image-43" ></a></div></div><div data-w-id="85457695-5f1e-bc46-cd34-f8b7c2ec2e8e" class="arganleft" style="border-color: rgba(58, 64, 74, 0.6);"><div class="barberinner"><div class="div-block-793"><img src="#" class="image-12"><div><img onmouseover="myImgScript" src="graphics/projects/project3.png" alt="" class="image-12"><div class="heading-4-copy">Back End Development</div></div><div><a href="https://github.com/RafaelPreziaGomes/eureka-notetaker" class="link-block-7 w-inline-block"><h2 class="heading-5 tablet-headings">Eureka Note&nbsp;Taker</h2></a></div><div class="div-block-794"><a href="https://eureka-notetaker.herokuapp.com/" class="w-inline-block"><img onmouseover="myImgScript" src="graphics/projects/project5.png" alt="Moonshine UI / UX Design" width="500"  sizes="(max-width: 479px) 100vw, (max-width: 767px) 27vw, (max-width: 1279px) 28vw, (max-width: 1919px) 29vw, 500px" class="image-43 qqw" ></a></div></div></div></div><div data-w-id="19fc9a6d-a1d8-4d7f-4e0a-9d0d2b6364a3" class="cards55 finci" style="border-color: rgba(255, 255, 255, 0);"><div class="barberinner"><div class="div-block-793"><img  onmouseover="myImgScript" src="graphics/projects/project7.png" alt="" class="image-12"><div><div class="heading-4-copy">Full Stack Development</div></div><div><a href="https://github.com/RafaelPreziaGomes/taskmaster-pro" class="link-block-7 w-inline-block"><h2 class="heading-5 tablet-headings">Taskmaster Pro</h2></a></div></div><div class="div-block-794"></div></div><div class="div-block-794 z"><a href="https://rafaelpreziagomes.github.io/taskmaster-pro/" class="w-inline-block"><img onmouseover="myImgScript" src="graphics/projects/project7.png" alt="Fintech UI UX Design" width="500" sizes="(max-width: 479px) 100vw, (max-width: 767px) 27vw, (max-width: 1279px) 28vw, (max-width: 1919px) 29vw, 500px"  class="image-43" ></a></div></div>
+          </div> 
+
+     
+          <div class="contact-me">
+            <h2 id="footer-heading">Get In Touch</h2>
+            <h3 class="subtitle">Want to work with me in a project?</h3>
+            <p>Anything and everything is possible with coaperation.</p>
+            <a class="BUTTON_RDV111" href="mailto:raffbusiness132@gmail.com">Contact Me</a>
+          </div>
+
+          <div class="bottom-container">
+            <a class="bottom-container-hyperlinks" href="https://www.instagram.com/raffaprezia/">Instagram</a>
+            <a class="bottom-container-hyperlinks" href="https://github.com/RafaelPreziaGomes">Github</a>
+            <a class="bottom-container-hyperlinks" href="html-website.html">Detailed CV</a>
+            <p class="copyright-logomark">© 2022 Raffa Prezia.</p>
+          </div>
+          <script src="main.js"></script>
+        </body>
+      </html>
+
+             
